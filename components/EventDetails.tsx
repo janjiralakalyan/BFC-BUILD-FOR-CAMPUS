@@ -7,7 +7,7 @@ export default function EventDetails() {
   const details = [
     { label: "Date", value: "APRIL 2, 2026", icon: Calendar, color: "primary" },
     { label: "Duration", value: "3 HOURS", icon: Clock, color: "secondary" },
-    { label: "Location", value: "CMR Campus", icon: MapPin, color: "primary" },
+    { label: "Location", value: "CMR College of Engineering and Technology", icon: MapPin, color: "primary" },
     { label: "Platform", value: "BUILD FOR CAMPUS", icon: Award, color: "secondary" },
   ];
 
