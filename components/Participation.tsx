@@ -7,7 +7,7 @@ import Link from "next/link";
 const pricingPlans = [
   {
     name: "Solo",
-    price: "70",
+    price: "80",
     icon: User,
     features: ["Single Participant", "Event Access", "Certificate", "Innovator Badge"],
     color: "primary",
@@ -89,11 +89,10 @@ export default function Participation() {
               <Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeF-7oSGNtF43aIvocLGLJmHtlmR2eHBg3qxCLO2z__n6oqAA/viewform"
                 target="_blank"
-                className={`w-full py-4 text-center font-bold text-lg rounded-2xl transition-all duration-300 transform active:scale-95 flex items-center justify-center space-x-2 border-2 ${
-                  plan.color === "primary" 
-                    ? "bg-primary text-primary-foreground border-primary hover:shadow-[0_0_30px_rgba(6,182,212,0.6)]" 
-                    : "bg-secondary text-white border-secondary hover:shadow-[0_0_30px_rgba(168,85,247,0.6)]"
-                }`}
+                className={`w-full py-4 text-center font-bold text-lg rounded-2xl transition-all duration-300 transform active:scale-95 flex items-center justify-center space-x-2 border-2 ${plan.color === "primary"
+                  ? "bg-primary text-primary-foreground border-primary hover:shadow-[0_0_30px_rgba(6,182,212,0.6)]"
+                  : "bg-secondary text-white border-secondary hover:shadow-[0_0_30px_rgba(168,85,247,0.6)]"
+                  }`}
               >
                 SELECT {plan.name.toUpperCase()}
               </Link>
