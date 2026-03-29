@@ -7,7 +7,7 @@ import Link from "next/link";
 const pricingPlans = [
   {
     name: "Solo",
-    price: "80",
+    price: "70",
     icon: User,
     features: ["Single Participant", "Event Access", "Certificate", "Innovator Badge"],
     color: "primary",
